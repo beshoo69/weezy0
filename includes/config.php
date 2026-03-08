@@ -9,6 +9,8 @@ $host = '127.0.0.1';  // أو 127.0.0.1:3307
 $username = 'u447723745_weezy0';
 $password = 'u447723745C452@weezy';
 $dbname = 'u447723745_weezy0';
+
+
 // $host = 'localhost:3306';  // أو 127.0.0.1:3307
 // $username = 'root';
 // $password = '';
