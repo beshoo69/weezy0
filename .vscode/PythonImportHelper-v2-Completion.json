@@ -1,0 +1,207 @@
+[
+    {
+        "label": "sys,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
+        "documentation": {}
+    },
+    {
+        "label": "lexers",
+        "importPath": "sphinx.highlighting",
+        "description": "sphinx.highlighting",
+        "isExtraImport": true,
+        "detail": "sphinx.highlighting",
+        "documentation": {}
+    },
+    {
+        "label": "PhpLexer",
+        "importPath": "pygments.lexers.web",
+        "description": "pygments.lexers.web",
+        "isExtraImport": true,
+        "detail": "pygments.lexers.web",
+        "documentation": {}
+    },
+    {
+        "label": "guzzle_sphinx_theme",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "guzzle_sphinx_theme",
+        "description": "guzzle_sphinx_theme",
+        "detail": "guzzle_sphinx_theme",
+        "documentation": {}
+    },
+    {
+        "label": "lexers['php']",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "lexers['php'] = PhpLexer(startinline=True, linenos=1)\nlexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)\nprimary_domain = 'php'\nextensions = []\ntemplates_path = ['_templates']\nsource_suffix = '.rst'\nmaster_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "lexers['php-annotations']",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)\nprimary_domain = 'php'\nextensions = []\ntemplates_path = ['_templates']\nsource_suffix = '.rst'\nmaster_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "primary_domain",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "primary_domain = 'php'\nextensions = []\ntemplates_path = ['_templates']\nsource_suffix = '.rst'\nmaster_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "extensions",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "extensions = []\ntemplates_path = ['_templates']\nsource_suffix = '.rst'\nmaster_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "templates_path",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "templates_path = ['_templates']\nsource_suffix = '.rst'\nmaster_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "source_suffix",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "source_suffix = '.rst'\nmaster_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "master_doc",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "master_doc = 'index'\nproject = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "project",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "project = u'Guzzle'\ncopyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "copyright",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "copyright = u'2015, Michael Dowling'\nversion = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "version",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "version = '7'\nhtml_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_title",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_title = \"Guzzle Documentation\"\nhtml_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_short_title",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_short_title = \"Guzzle 7\"\nexclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.\nhtml_sidebars = {",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "exclude_patterns",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "exclude_patterns = ['_build']\nhtml_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.\nhtml_sidebars = {\n    '**': ['logo-text.html', 'globaltoc.html', 'searchbox.html']",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_static_path",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_static_path = ['_static']\n##### Guzzle sphinx theme\nimport guzzle_sphinx_theme\nhtml_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.\nhtml_sidebars = {\n    '**': ['logo-text.html', 'globaltoc.html', 'searchbox.html']\n}",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_translator_class",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_translator_class = 'guzzle_sphinx_theme.HTMLTranslator'\nhtml_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.\nhtml_sidebars = {\n    '**': ['logo-text.html', 'globaltoc.html', 'searchbox.html']\n}\n# Register the theme as an extension to generate a sitemap.xml\nextensions.append(\"guzzle_sphinx_theme\")\n# Guzzle theme options (see theme.conf for more information)",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_theme_path",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_theme_path = guzzle_sphinx_theme.html_theme_path()\nhtml_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.\nhtml_sidebars = {\n    '**': ['logo-text.html', 'globaltoc.html', 'searchbox.html']\n}\n# Register the theme as an extension to generate a sitemap.xml\nextensions.append(\"guzzle_sphinx_theme\")\n# Guzzle theme options (see theme.conf for more information)\nhtml_theme_options = {",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_theme",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_theme = 'guzzle_sphinx_theme'\n# Custom sidebar templates, maps document names to template names.\nhtml_sidebars = {\n    '**': ['logo-text.html', 'globaltoc.html', 'searchbox.html']\n}\n# Register the theme as an extension to generate a sitemap.xml\nextensions.append(\"guzzle_sphinx_theme\")\n# Guzzle theme options (see theme.conf for more information)\nhtml_theme_options = {\n    # Set the path to a special layout to include for the homepage",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_sidebars",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_sidebars = {\n    '**': ['logo-text.html', 'globaltoc.html', 'searchbox.html']\n}\n# Register the theme as an extension to generate a sitemap.xml\nextensions.append(\"guzzle_sphinx_theme\")\n# Guzzle theme options (see theme.conf for more information)\nhtml_theme_options = {\n    # Set the path to a special layout to include for the homepage\n    # \"index_template\": \"homepage.html\",\n    # Allow a separate homepage from the master_doc",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_theme_options",
+        "kind": 5,
+        "importPath": "vendor.guzzlehttp.guzzle.docs.conf",
+        "description": "vendor.guzzlehttp.guzzle.docs.conf",
+        "peekOfCode": "html_theme_options = {\n    # Set the path to a special layout to include for the homepage\n    # \"index_template\": \"homepage.html\",\n    # Allow a separate homepage from the master_doc\n    # homepage = index\n    # Set the name of the project to appear in the nav menu\n    # \"project_nav_name\": \"Guzzle\",\n    # Set your Disqus short name to enable comments\n    # \"disqus_comments_shortname\": \"my_disqus_comments_short_name\",\n    # Set you GA account ID to enable tracking",
+        "detail": "vendor.guzzlehttp.guzzle.docs.conf",
+        "documentation": {}
+    }
+]

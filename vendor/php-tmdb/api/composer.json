@@ -1,0 +1,86 @@
+{
+    "authors": [
+        {
+            "name": "Michael Roterman",
+            "homepage": "http://wtfz.net",
+            "email": "michael@wtfz.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tmdb\\": "lib/Tmdb"
+        }
+    },
+    "description": "PHP wrapper for TMDB (TheMovieDatabase) API v3. Supports two types of approaches, one modelled with repositories, models and factories. And the other by simple array access to RAW data from The Movie Database.",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    },
+    "homepage": "https://github.com/php-tmdb/api",
+    "keywords": [
+        "tmdb",
+        "api",
+        "php",
+        "wrapper",
+        "movie",
+        "tv",
+        "tv show",
+        "tvdb"
+    ],
+    "license": "MIT",
+    "name": "php-tmdb/api",
+    "require": {
+        "php": "^7.3 || ^7.4 || ^8.0 || ^8.1",
+        "ext-json": "*",
+        "symfony/options-resolver": ">=4.4 || ^5 || ^6",
+        "psr/cache": "^1 || ^2 || ^3",
+        "psr/simple-cache": "^1 || ^2 || ^3",
+        "psr/event-dispatcher": "^1",
+        "psr/event-dispatcher-implementation": "^1",
+        "psr/log": "^1 || ^2 || ^3",
+        "php-http/discovery": "^1.11",
+        "psr/http-client": "^1",
+        "psr/http-client-implementation": "^1",
+        "psr/http-factory": "^1",
+        "psr/http-factory-implementation": "^1",
+        "psr/http-message": "^1"
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.2",
+        "php-http/mock-client": "^1.2",
+        "slevomat/coding-standard": "^6.4",
+        "squizlabs/php_codesniffer": "^3.5.8",
+        "symfony/cache": ">=4.4 || ^5 || ^6",
+        "symfony/event-dispatcher": ">=4.4 || ^5 || ^6",
+        "phpstan/phpstan": "^1.8.1",
+        "phpunit/phpunit": ">=8.5.23 || ^9.3",
+        "php-http/guzzle7-adapter": "^0.1",
+        "monolog/monolog": ">=1.11.0",
+        "vimeo/psalm": "^4",
+        "php-http/cache-plugin": "^1.7",
+        "jeroen/psr-log-test-doubles": "^2.1 || ^3"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-ci": "vendor/bin/phpunit --coverage-text --coverage-clover=build/coverage.xml coverage",
+        "test-coverage": "php -d xdebug.mode=coverage vendor/bin/phpunit --coverage-html build/coverage",
+        "test-cs": "vendor/bin/phpcs",
+        "test-phpstan": "vendor/bin/phpstan analyse",
+        "test-psalm": "vendor/bin/psalm lib/"
+    },
+    "suggest": {
+        "psr/log-implementation": "If you wish to enable logging features, provide an PSR-3 logger.",
+        "monolog/monolog": "Great logger to use, but you can pick any PSR-3 logger you wish.",
+        "psr/cache-implementation": "If you wish to enable caching features, provide an PSR-6 cache implementation.",
+        "symfony/cache": "Great cache to use, but you can pick any PSR-6 cache you wish.",
+        "php-http/cache-plugin": "When making use of cache, you need to install this plugin.",
+        "psr/simple-cache-implementation": "If you wish to enable caching features, provide an PSR-16 cache."
+    },
+    "type": "library",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php-tmdb/api": "^4.1",
+        "symfony/http-client": "^5.4",
+        "nyholm/psr7": "^1.8",
+        "guzzlehttp/guzzle": "^7.10",
+        "symfony/dom-crawler": "^7.4",
+        "symfony/css-selector": "^7.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

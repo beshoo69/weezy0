@@ -1,0 +1,11 @@
+.idea/
+cache.properties/
+coverage/
+vendor/
+examples/apikey.php
+composer.lock
+.phpcs-cache
+.phpunit.result.cache
+examples/
+examples/var/
+phpstan.neon$
